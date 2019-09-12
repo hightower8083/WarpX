@@ -103,6 +103,7 @@ IntVect WarpX::filter_npass_each_dir(1);
 
 int WarpX::n_field_gather_buffer = 0;
 int WarpX::n_current_deposition_buffer = -1;
+bool WarpX::m_use_buffers = false;
 
 int WarpX::do_nodal = false;
 
